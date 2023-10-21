@@ -106,28 +106,45 @@
 
 <!-- Contact -->
 <article id="contact">
-    <h2 class="major">Contact</h2>
-    <ul class="contact-options">
-        <li>
-            <a href="javascript:void(0);"class="button primary" onclick="openGmail()">
-                <span class="icon solid fa-envelope"></span>
-                <span class="option-text"  onclick="openGmail">Write to me</span>
-            </a>
-        </li>
-        <li>
-            <a href="https://twitter.com/sky_goly" class="icon brands fa-twitter"></a>
-            <span class="option-text">Twitter</span>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com/in/prince-gupta-6aa623254" class="icon brands fa-linkedin"></a>
+	<div>
+		<h2 class="major">Contact</h2>
+        <a href="javascript:void(0);" class="button primary" onclick="openGmail()">
+            <span class="icon solid fa-envelope"></span>
+            <span class="option-text" onclick="openGmail">Write to me</span>
+        </a>
+	</div>
+    
+	<div>
+		<a href="https://twitter.com/sky_goly" class="button" style="margin-top: 10px;">
+			<span class="icon brands fa-twitter"></span>
+			<span class="option-text">Twitter</span>
+		</a>
+	</div>
+    
+    <div>
+        <a href="https://www.linkedin.com/in/prince-gupta-6aa623254" class="button" style="margin-top: 10px;">
+            <span class="icon brands fa-linkedin"></span>
             <span class="option-text">LinkedIn</span>
-        </li>
-        <li>
-            <a href="https://github.com/princeo741" class="icon brands fa-github"></a>
+        </a>
+    </div>
+
+    <div>
+        <a href="https://github.com/princeo741" class="button" style="margin-top: 10px;">
+            <span class="icon brands fa-github"></span>
             <span class="option-text">GitHub</span>
-        </li>
-    </ul>
+        </a>
+    </div>
 </article>
+
+<script>
+    function openGmail() {
+        window.open('mailto:princeguptao741@gmail.com?subject=Subject%20Here');
+    }
+</script>
+
+
+
+
 
 <script>
     function openGmail() {
